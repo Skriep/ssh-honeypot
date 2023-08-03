@@ -11,7 +11,7 @@ docker-compose build
 To run: 
 
 ```
-docker-compose -p ssh-honeypot up
+docker-compose -p ssh-honeypot up -d
 ```
 
 
@@ -39,4 +39,4 @@ Following paths are mounted as volumes by default
 ```
 
 * As per docker support, any additional path(s) can be mounted as volume(s); Note that this could have side-effects.
-* RSA key is generated during stage 2. If file already exists, it will not be generated again. 
+* RSA key is generated during stage 2. If file already exists, it will not be generated again.
